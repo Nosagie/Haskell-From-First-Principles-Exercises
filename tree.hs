@@ -73,4 +73,43 @@ main :: IO()
 main = do 
     testPreorder
     testInOrder
-    testPostOrder 
+    testPostOrder
+
+
+-- preorder traversal
+foldTree :: (a -> b -> b -> b) -> b -> BinaryTree a -> b 
+foldTree _ s Leaf = s 
+foldTree f s (Node left val right) = f val (foldTree f s left) (foldTree f s right) 
+
+-- using foldTree
+mapTree' :: (a -> b) -> BinaryTree a -> BinaryTree b 
+mapTree' f bt = foldTree 
+            (\x y z -> (Node  y (f x) z))
+            Leaf
+            bt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
