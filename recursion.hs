@@ -4,6 +4,9 @@ factorial :: Integer -> Integer
 factorial 0 = 1
 factorial n = n * factorial (n-1) 
 
+-- Or 
+factorial' n = foldr (*) [1..n]
+
 
 inc :: Num a => a -> a
 inc = (+1)

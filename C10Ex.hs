@@ -1,6 +1,5 @@
 module Chapter10Ex where
 
--- FIX MY MAP AND MYSQUISH
 
 -- MyOr
 -- Direct Recursion

@@ -43,3 +43,4 @@ compareKind (Jam k _) (Jam k' _) = compare k k'
 
 groupJam :: [JamJars] -> [[JamJars]]
 groupJam = groupBy (>) . sortJam  
+
