@@ -84,7 +84,7 @@ foldTree f s (Node left val right) = f val (foldTree f s left) (foldTree f s rig
 -- using foldTree
 mapTree' :: (a -> b) -> BinaryTree a -> BinaryTree b 
 mapTree' f bt = foldTree 
-            (\x y z -> (Node  y (f x) z))
+            (\x y z -> (Node y (f x) z))
             Leaf
             bt 
 
