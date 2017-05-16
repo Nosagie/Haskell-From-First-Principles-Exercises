@@ -14,13 +14,13 @@ import Data.Char
 
 
 vignere :: [Char] -> [Char] -> [Char]
-vignere s k = f . zipWith 
+vignere s k = e . zipWith 
                 (\x y -> (x,mod (ord y) 65)) s $ zipWordKey s (cycle k)
         
 
-f :: [(Char,Int)] -> [Char]
-f [] = []
-f ((x,y):xs) = [charShift x y] ++ f xs
+e :: [(Char,Int)] -> [Char]
+e [] = []
+e ((x,y):xs) = [charShift x y] ++ e xs
 
 zipWordKey :: [Char] -> [Char] -> [Char]
 zipWordKey [] k = []
