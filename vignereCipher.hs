@@ -1,5 +1,4 @@
-module C11Exs2 where
-
+module VignereCipher where
 import Data.Char
 
 
