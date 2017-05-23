@@ -1,4 +1,4 @@
-module BinaryTree where
+module Tree where
 
 data BinaryTree a = Leaf 
                 | Node (BinaryTree a) a (BinaryTree a)
@@ -87,7 +87,6 @@ mapTree' f bt = foldTree
             (\x y z -> (Node y (f x) z))
             Leaf
             bt 
-
 
 
 
