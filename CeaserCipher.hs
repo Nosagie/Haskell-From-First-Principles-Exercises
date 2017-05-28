@@ -33,3 +33,10 @@ unShiftLetter c s
 			|  otherwise = ' '
 		where newIndex = ord c - s;
 
+main :: IO()
+main = do 
+	putStr "Message to encrypt: "
+	message <- getLine 
+	putStr "Num of shifts: "
+	shifts <- getLine
+	putStrLn . (++) "Result: " . ceaser message $ (read shifts::Int) 

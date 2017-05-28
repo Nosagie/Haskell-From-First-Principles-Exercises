@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-8633/split-0.2.2'
+Configuring split-0.2.2...
+Building split-0.2.2...
+Preprocessing library split-0.2.2...
+[1 of 2] Compiling Data.List.Split.Internals ( src/Data/List/Split/Internals.hs, dist/dist-sandbox-bf6c4be9/build/Data/List/Split/Internals.o )
+[2 of 2] Compiling Data.List.Split  ( src/Data/List/Split.hs, dist/dist-sandbox-bf6c4be9/build/Data/List/Split.o )
+[1 of 2] Compiling Data.List.Split.Internals ( src/Data/List/Split/Internals.hs, dist/dist-sandbox-bf6c4be9/build/Data/List/Split/Internals.p_o )
+[2 of 2] Compiling Data.List.Split  ( src/Data/List/Split.hs, dist/dist-sandbox-bf6c4be9/build/Data/List/Split.p_o )
+Running Haddock for split-0.2.2...
+Preprocessing library split-0.2.2...
+Haddock coverage:
+  91% ( 61 / 67) in 'Data.List.Split.Internals'
+  90% ( 44 / 49) in 'Data.List.Split'
+Documentation created: dist/dist-sandbox-bf6c4be9/doc/html/split/index.html
+Creating package registration file:
+/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/pkgConf-split-0.2823378840143542612.2
+Installing library in /Users/nosagie-asaolu/Documents/Projects/Haskell/Haskell
+From First Principles
+Exercises/Hangman/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/split-0.2.2-70nMVmVpMg8ADcb9zPQSSi
+Registering split-0.2.2...
+cabal: Leaving directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-8633/split-0.2.2'

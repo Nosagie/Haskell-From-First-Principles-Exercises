@@ -32,3 +32,11 @@ charShift char shift =
             chr . (+) 65 
             . mod (mod ((ord char) + shift) 65) 
             $ 26
+
+main :: IO()
+main = do 
+    putStr "message: "
+    msg <- getLine 
+    putStr "keyword: "
+    key <- getLine
+    putStrLn . (++) "Result: " . vignere msg $ key 
