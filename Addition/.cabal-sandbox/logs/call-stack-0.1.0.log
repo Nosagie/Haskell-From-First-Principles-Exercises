@@ -1,0 +1,41 @@
+cabal: Entering directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2122/call-stack-0.1.0'
+Configuring call-stack-0.1.0...
+Building call-stack-0.1.0...
+Preprocessing library call-stack-0.1.0...
+[1 of 3] Compiling Paths_call_stack ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs, dist/dist-sandbox-4d3939d8/build/Paths_call_stack.o )
+[2 of 3] Compiling Data.SrcLoc      ( src/Data/SrcLoc.hs, dist/dist-sandbox-4d3939d8/build/Data/SrcLoc.o )
+[3 of 3] Compiling Data.CallStack   ( src/Data/CallStack.hs, dist/dist-sandbox-4d3939d8/build/Data/CallStack.o )
+[1 of 3] Compiling Paths_call_stack ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs, dist/dist-sandbox-4d3939d8/build/Paths_call_stack.p_o )
+[2 of 3] Compiling Data.SrcLoc      ( src/Data/SrcLoc.hs, dist/dist-sandbox-4d3939d8/build/Data/SrcLoc.p_o )
+[3 of 3] Compiling Data.CallStack   ( src/Data/CallStack.hs, dist/dist-sandbox-4d3939d8/build/Data/CallStack.p_o )
+Running Haddock for call-stack-0.1.0...
+Preprocessing library call-stack-0.1.0...
+Haddock coverage:
+   0% (  0 /  9) in 'Paths_call_stack'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:28)
+    getBinDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+    getLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+    getDynLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+    getDataDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+    getLibexecDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+    getDataFileName (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:47)
+    getSysconfDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_call_stack.hs:39)
+  50% (  1 /  2) in 'Data.SrcLoc'
+  Missing documentation for:
+    Module header
+  40% (  2 /  5) in 'Data.CallStack'
+  Missing documentation for:
+    Module header
+    CallStack (src/Data/CallStack.hs:28)
+    callStack (src/Data/CallStack.hs:30)
+Documentation created:
+dist/dist-sandbox-4d3939d8/doc/html/call-stack/index.html
+Creating package registration file:
+/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/pkgConf-call-stack-0.12128236579784558821.0
+Installing library in /Users/nosagie-asaolu/Documents/Projects/Haskell/Haskell
+From First Principles
+Exercises/Addition/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+Registering call-stack-0.1.0...
+cabal: Leaving directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2122/call-stack-0.1.0'

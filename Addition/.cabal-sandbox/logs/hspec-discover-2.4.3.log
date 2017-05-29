@@ -1,0 +1,54 @@
+cabal: Entering directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2124/hspec-discover-2.4.3'
+Configuring hspec-discover-2.4.3...
+Building hspec-discover-2.4.3...
+Preprocessing library hspec-discover-2.4.3...
+[1 of 3] Compiling Test.Hspec.Discover.Config ( src/Test/Hspec/Discover/Config.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover/Config.o )
+[2 of 3] Compiling Test.Hspec.Discover.Run ( src/Test/Hspec/Discover/Run.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover/Run.o )
+[3 of 3] Compiling Paths_hspec_discover ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs, dist/dist-sandbox-4d3939d8/build/Paths_hspec_discover.o )
+[1 of 3] Compiling Test.Hspec.Discover.Config ( src/Test/Hspec/Discover/Config.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover/Config.p_o )
+[2 of 3] Compiling Test.Hspec.Discover.Run ( src/Test/Hspec/Discover/Run.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover/Run.p_o )
+[3 of 3] Compiling Paths_hspec_discover ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs, dist/dist-sandbox-4d3939d8/build/Paths_hspec_discover.p_o )
+Preprocessing executable 'hspec-discover' for hspec-discover-2.4.3...
+[1 of 1] Compiling Main             ( driver/hspec-discover.hs, dist/dist-sandbox-4d3939d8/build/hspec-discover/hspec-discover-tmp/Main.o )
+Linking dist/dist-sandbox-4d3939d8/build/hspec-discover/hspec-discover ...
+Running Haddock for hspec-discover-2.4.3...
+Preprocessing library hspec-discover-2.4.3...
+Haddock coverage:
+  20% (  1 /  5) in 'Test.Hspec.Discover.Config'
+  Missing documentation for:
+    Config (src/Test/Hspec/Discover/Config.hs:14)
+    defaultConfig (src/Test/Hspec/Discover/Config.hs:21)
+    parseConfig (src/Test/Hspec/Discover/Config.hs:35)
+    usage (src/Test/Hspec/Discover/Config.hs:32)
+  40% (  4 / 10) in 'Test.Hspec.Discover.Run'
+  Missing documentation for:
+    run (src/Test/Hspec/Discover/Run.hs:42)
+    Spec (src/Test/Hspec/Discover/Run.hs:37)
+    fileToSpec (src/Test/Hspec/Discover/Run.hs:124)
+    findSpecs (src/Test/Hspec/Discover/Run.hs:119)
+    getFilesRecursive (src/Test/Hspec/Discover/Run.hs:143)
+    driverWithFormatter (src/Test/Hspec/Discover/Run.hs:88)
+   0% (  0 /  9) in 'Paths_hspec_discover'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:28)
+    getBinDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+    getLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+    getDynLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+    getDataDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+    getLibexecDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+    getDataFileName (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:47)
+    getSysconfDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec_discover.hs:39)
+Documentation created:
+dist/dist-sandbox-4d3939d8/doc/html/hspec-discover/index.html
+Preprocessing executable 'hspec-discover' for hspec-discover-2.4.3...
+Creating package registration file:
+/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/pkgConf-hspec-discover-2.416460350011025921153.3
+Installing library in /Users/nosagie-asaolu/Documents/Projects/Haskell/Haskell
+From First Principles
+Exercises/Addition/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/hspec-discover-2.4.3-CG2f3yt4qi61oj48M1aJup
+Installing executable(s) in
+/Users/nosagie-asaolu/Documents/Projects/Haskell/Haskell From First Principles
+Exercises/Addition/.cabal-sandbox/bin
+Registering hspec-discover-2.4.3...
+cabal: Leaving directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2124/hspec-discover-2.4.3'

@@ -1,0 +1,70 @@
+cabal: Entering directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2121/hspec-2.4.3'
+Configuring hspec-2.4.3...
+Building hspec-2.4.3...
+Preprocessing library hspec-2.4.3...
+[1 of 8] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Runner.o )
+[2 of 8] Compiling Test.Hspec.HUnit ( src/Test/Hspec/HUnit.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/HUnit.o )
+[3 of 8] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Formatters.o )
+[4 of 8] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover.o )
+[5 of 8] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Core.o )
+[6 of 8] Compiling Test.Hspec       ( src/Test/Hspec.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec.o )
+[7 of 8] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/QuickCheck.o )
+[8 of 8] Compiling Paths_hspec      ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs, dist/dist-sandbox-4d3939d8/build/Paths_hspec.o )
+[1 of 8] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Runner.p_o )
+[2 of 8] Compiling Test.Hspec.HUnit ( src/Test/Hspec/HUnit.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/HUnit.p_o )
+[3 of 8] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Formatters.p_o )
+[4 of 8] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Discover.p_o )
+[5 of 8] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/Core.p_o )
+[6 of 8] Compiling Test.Hspec       ( src/Test/Hspec.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec.p_o )
+[7 of 8] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, dist/dist-sandbox-4d3939d8/build/Test/Hspec/QuickCheck.p_o )
+[8 of 8] Compiling Paths_hspec      ( dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs, dist/dist-sandbox-4d3939d8/build/Paths_hspec.p_o )
+Running Haddock for hspec-2.4.3...
+Preprocessing library hspec-2.4.3...
+Haddock coverage:
+  50% (  1 /  2) in 'Test.Hspec.Runner'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Test.Hspec.HUnit'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Test.Hspec.Formatters'
+  Missing documentation for:
+    Module header
+  38% (  3 /  8) in 'Test.Hspec.Discover'
+  Missing documentation for:
+    Module header
+    Spec
+    IsFormatter (src/Test/Hspec/Discover.hs:26)
+    hspecWithFormatter (src/Test/Hspec/Discover.hs:35)
+    postProcessSpec (src/Test/Hspec/Discover.hs:40)
+  60% (  3 /  5) in 'Test.Hspec.Core'
+  Missing documentation for:
+    describe (src/Test/Hspec/Core.hs:13)
+    it (src/Test/Hspec/Core.hs:17)
+  92% ( 37 / 40) in 'Test.Hspec'
+  Missing documentation for:
+    Spec
+    SpecWith
+    Arg
+  86% (  6 /  7) in 'Test.Hspec.QuickCheck'
+  Missing documentation for:
+    Module header
+   0% (  0 /  9) in 'Paths_hspec'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:28)
+    getBinDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+    getLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+    getDynLibDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+    getDataDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+    getLibexecDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+    getDataFileName (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:47)
+    getSysconfDir (dist/dist-sandbox-4d3939d8/build/autogen/Paths_hspec.hs:39)
+Documentation created: dist/dist-sandbox-4d3939d8/doc/html/hspec/index.html
+Creating package registration file:
+/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/pkgConf-hspec-2.4195400260589673557.3
+Installing library in /Users/nosagie-asaolu/Documents/Projects/Haskell/Haskell
+From First Principles
+Exercises/Addition/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/hspec-2.4.3-HaJzoH20xkNIsZlLAum2zP
+Registering hspec-2.4.3...
+cabal: Leaving directory '/var/folders/f6/w0qw_qrs3ps3d5d1q16vwbhw0000gn/T/cabal-tmp-2121/hspec-2.4.3'

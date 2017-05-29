@@ -1,6 +1,7 @@
 module CeaserCipher where
 
 import Data.Char
+import Test.QuickCheck
 
 -- Implements ceaser cipher
 ceaser :: String -> Int -> String
@@ -32,6 +33,12 @@ unShiftLetter c s
 			|  newIndex < 97 = chr $ 122 - mod (97 - newIndex) 97
 			|  otherwise = ' '
 		where newIndex = ord c - s;
+
+propCeaser :: String -> Int -> Bool
+propCeaser s n = (ceaser s n) == (unCeaser (ceaser s n) n)
+
+tests :: IO()
+tests = quickCheck propCeaser
 
 main :: IO()
 main = do 

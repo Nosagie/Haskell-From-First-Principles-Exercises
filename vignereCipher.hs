@@ -14,7 +14,7 @@ import Data.Char
 
 vignere :: [Char] -> [Char] -> [Char]
 vignere s k = e . zipWith (\x y -> (x,mod (ord y) 65)) s $ zipWordKey s (cycle k)
-        
+        s
 
 e :: [(Char,Int)] -> [Char]
 e [] = []
