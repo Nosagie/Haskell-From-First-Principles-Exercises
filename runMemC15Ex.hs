@@ -17,7 +17,8 @@ instance Monoid a => Monoid (Mem s a) where
                     (u <> v,w))
                            
 
-f' = Mem $ (\s -> ("hi",s+1))
+f' = Mem (\s -> ("hi",s+1))
+f'' = Mem (\s -> (" df",2+3))
 
 testMem = do 
     print $ runMem (f' <> mempty) 0
@@ -25,3 +26,4 @@ testMem = do
     print $ (runMem mempty 0 :: (String,Int))
     print $ runMem (f' <> mempty) 0 == runMem f' 0
     print $ runMem (mempty <> f') 0 == runMem f' 0
+    print $ runMem (f'' <> f') 0
